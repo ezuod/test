@@ -10,8 +10,10 @@ float revenu_au_hasard() {
 }
 
 char* nom_au_hasard() {
-    char* noms[10] = {"Michel","Josué","Anguerrande","Josselin","Foulque","Frederic","David","Jean-Gertrude","Jépadnom"}; 
-    return noms[rand()%9+0];
+    char* noms[30] = {"Michel","Josué","Anguerrande","Josselin","Foulque","Frederic","David","Jean-Gertrude","Jépadnom","Liam",
+    "William","Sophia","Nathan","Léo","Emma","Logan","Florence", "Thomas","Noah","Félix",
+    "Edouard","Victor","Dylan","Louis","James","Ethan","Benjamin","Gabriel","Rose","Nolan"}; 
+    return noms[rand()%30+0];
 }
 
 int main() {
