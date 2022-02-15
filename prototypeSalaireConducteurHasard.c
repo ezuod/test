@@ -9,6 +9,8 @@ float revenu_au_hasard() {
     return j/10.0;
 }
 
+
+
 char* nom_au_hasard() {
     char* noms[30] = {"Michel","Josué","Anguerrande","Josselin","Foulque","Frederic","David","Jean-Gertrude","Jépadnom","Liam",
     "William","Sophia","Nathan","Léo","Emma","Logan","Florence", "Thomas","Noah","Félix",
